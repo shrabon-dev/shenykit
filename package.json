@@ -1,0 +1,42 @@
+{
+  "name": "shenykit",
+  "version": "1.0.0",
+  "description": "A modern, component-based UI library for Next.js applications using Tailwind CSS.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "echo 'Run your build tool (e.g., Rollup/Vite) here to compile JSX to JS/CJS/ESM formats'",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "tailwindcss",
+    "ui-kit",
+    "components"
+  ],
+  "author": "Sheny Dev",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "tailwindcss": ">=3.0.0",
+    "next": ">=14.0.0"
+  },
+  "devDependencies": {
+    "react-dom": "^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YourUsername/shenykit.git" 
+  },
+  "bugs": {
+    "url": "https://github.com/YourUsername/shenykit/issues" 
+  },
+  "homepage": "https://github.com/YourUsername/shenykit#readme"
+}
