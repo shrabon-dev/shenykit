@@ -1,6 +1,6 @@
 {
   "name": "shenykit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern, component-based UI library for Next.js applications using Tailwind CSS.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -33,10 +33,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/YourUsername/shenykit.git" 
+    "url": "https://github.com/shrabon-dev/shenykit.git" 
   },
   "bugs": {
-    "url": "https://github.com/YourUsername/shenykit/issues" 
+    "url": "" 
   },
-  "homepage": "https://github.com/YourUsername/shenykit#readme"
+  "homepage": "https://github.com/shrabon-dev/shenykit.git#readme"
 }
