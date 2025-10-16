@@ -1,6 +1,6 @@
 {
   "name": "shenykit",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A modern, component-based UI library for Next.js applications using Tailwind CSS.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "echo 'Run your build tool (e.g., Rollup/Vite) here to compile JSX to JS/CJS/ESM formats'",
+    "build": "npx vite build",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
@@ -21,22 +21,24 @@
   "author": "Sheny Dev",
   "license": "MIT",
   "dependencies": {
-    "react": "^18.2.0"
+    "react": ">=18.0.0"
   },
   "peerDependencies": {
+    "next": ">=14.0.0",
     "react": ">=18.0.0",
-    "tailwindcss": ">=3.0.0",
-    "next": ">=14.0.0"
+    "tailwindcss": ">=3.0.0"
   },
   "devDependencies": {
-    "react-dom": "^18.2.0"
+    "@vitejs/plugin-react": "^5.0.4",
+    "react-dom": "^18.2.0",
+    "vite": "^7.1.10"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shrabon-dev/shenykit.git" 
+    "url": "https://github.com/shrabon-dev/shenykit.git"
   },
   "bugs": {
-    "url": "" 
+    "url": "https://github.com/shrabon-dev/shenykit/issues"
   },
-  "homepage": "https://github.com/shrabon-dev/shenykit.git#readme"
+  "homepage": "https://github.com/shrabon-dev/shenykit#readme"
 }
